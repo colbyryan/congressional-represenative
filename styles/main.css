@@ -5,6 +5,19 @@ html {
   margin: 25px;
 }
 
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(157, 175, 194);
+  padding: 0px;
+  margin: 0;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
 .rep_info h1 {
   font-size: 30px;
   font-weight: bolder;
@@ -34,4 +47,9 @@ footer img {
 .socials {
   display: flex;
   justify-content: center;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
 }
